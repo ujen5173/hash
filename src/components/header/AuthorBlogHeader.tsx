@@ -146,7 +146,7 @@ const AuthorBlogHeader: FC<Props> = ({ user: author }) => {
           <div className="flex items-center justify-between gap-4">
             <Tooltip label="Search" position="bottom" withArrow>
               <button
-                aria-label="Search Hashnode"
+                aria-label="Search flowlet"
                 role="button"
                 className="btn-icon flex h-10 w-10"
                 onClick={() => setSearchOpen(true)}

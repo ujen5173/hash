@@ -59,7 +59,7 @@ const Setup = () => {
     <>
       <MetaTags
         title={`Choose a name for your blog`}
-        description="Choose a name for your blog and start your journey with Hashnode Clone."
+        description="Choose a name for your blog and start your journey with flowlet Clone."
       />
       <div className="flex items-center justify-center border-b border-border-light bg-white p-4 dark:border-border dark:bg-primary">
         <Link href={"/"}>
@@ -111,7 +111,7 @@ const Setup = () => {
                 placeholder="Enter a domain name"
                 type="INPUT"
                 variant="FILLED"
-                label="Choose a domain for your blog (johndoe.hashnode-t3.app)"
+                label="Choose a domain for your blog (johndoe.flowlet-t3.app)"
                 required={false}
                 value={handle.domain}
               />

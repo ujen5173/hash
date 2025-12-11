@@ -32,7 +32,7 @@ const AIBanner = () => {
         </Link>
         <button
           role="button"
-          aria-label="learn more on Hashnode pro"
+          aria-label="learn more on flowlet pro"
           className="btn-outline w-fit text-sm text-white"
         >
           Learn more

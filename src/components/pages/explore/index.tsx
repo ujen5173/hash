@@ -114,8 +114,8 @@ const ExploreMainComponent = () => {
           Explore Tech articles & Tags
         </h1>
         <p className="mx-auto w-full text-center text-base font-normal text-gray-500 dark:text-text-primary md:w-10/12 lg:w-8/12">
-          Everything that&apos;s… Hashnode. Explore the most popular tech
-          articles from the Hashnode community. A constantly updating list of
+          Everything that&apos;s… flowlet. Explore the most popular tech
+          articles from the flowlet community. A constantly updating list of
           popular tags and the best minds in tech.
         </p>
       </div>

@@ -82,10 +82,10 @@ const AuthorBlogs: NextPage<{
   } = api.posts.getAuthorArticlesByHandle.useInfiniteQuery(
     {
       handleDomain: router.query.username
-        ? (router.query?.username.slice(
+        ? ((router.query?.username.slice(
             1,
             router.query?.username.length,
-          ) as string) ?? ""
+          ) as string) ?? "")
         : "",
     },
     {
@@ -130,8 +130,8 @@ const AuthorBlogs: NextPage<{
   return (
     <>
       <MetaTags
-        title={`${user.name}'s Blog | Hashnode`}
-        description={`${user.name}'s Blog | Hashnode`}
+        title={`${user.name}'s Blog | flowlet`}
+        description={`${user.name}'s Blog | flowlet`}
       />
 
       <AuthorBlogHeader user={user} />

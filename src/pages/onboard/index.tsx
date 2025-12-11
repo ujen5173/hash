@@ -8,8 +8,8 @@ const Onboard = () => {
   return (
     <>
       <MetaTags
-        title={`Sign in to Hashnode Clone`}
-        description="Be a part of the Hashnode community. Sign in to Hashnode Clone to start your journey."
+        title={`Sign in to flowlet Clone`}
+        description="Be a part of the flowlet community. Sign in to flowlet Clone to start your journey."
       />
 
       <header className="flex items-center justify-center border-b border-border-light bg-white p-4 dark:border-border dark:bg-primary">
@@ -42,14 +42,14 @@ const Onboard = () => {
           <div className="hidden w-full md:block md:w-7/12 xl:w-full">
             <i className="mb-2 block text-lg text-gray-700 dark:text-text-secondary">
               &quot;It&apos;s amazing to see how fast devs go from 0 to Blog
-              under a domain they own on Hashnode 🤯. It reminds me a lot of
-              what Substack did for journalists.&quot;
+              under a domain they own on flowlet 🤯. It reminds me a lot of what
+              Substack did for journalists.&quot;
             </i>
 
             <div className="flex items-center gap-2">
               <Image
                 src={
-                  "https://cdn.hashnode.com/res/hashnode/image/upload/v1645091032744/UERdc-IVr.jpeg?auto=compress"
+                  "https://cdn.flowlet.com/res/flowlet/image/upload/v1645091032744/UERdc-IVr.jpeg?auto=compress"
                 }
                 width={70}
                 height={70}

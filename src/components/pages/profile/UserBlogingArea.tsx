@@ -24,7 +24,7 @@ const UserBlogingArea: FC<{
           </h1>
 
           <h1 className="text-sm font-normal text-gray-700 dark:text-text-primary md:text-base">
-            {userDetails?.handle?.handle}.hashnode-t3.vercel.app
+            {userDetails?.handle?.handle}.flowlet-t3.vercel.app
           </h1>
         </div>
 

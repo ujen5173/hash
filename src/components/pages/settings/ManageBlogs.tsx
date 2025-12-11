@@ -48,7 +48,7 @@ const ManageBlogs = () => {
                   {session?.user.handle?.name}
                 </h1>
                 <p className="text-sm font-normal text-gray-500 dark:text-text-primary">
-                  {session?.user.handle?.handle}.hashnode-t3.dev
+                  {session?.user.handle?.handle}.flowlet-t3.dev
                 </p>
               </th>
               <th

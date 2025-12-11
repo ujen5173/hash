@@ -30,7 +30,7 @@ const Bookmark: NextPage = () => {
             Bookmarks
           </h1>
           <p className="mx-auto w-full text-center text-base font-normal text-gray-500 dark:text-text-primary">
-            All articles you have bookmarked on Hashnode Clone
+            All articles you have bookmarked on flowlet Clone
           </p>
         </div>
 

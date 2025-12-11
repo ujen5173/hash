@@ -91,9 +91,9 @@ const Dashboard = () => {
           Object.keys(componentMap).includes(
             (paths?.dashboard as string[])?.join("/") ?? "general",
           )
-            ? ((paths?.dashboard as string[])?.join(
+            ? (((paths?.dashboard as string[])?.join(
                 "/",
-              ) as keyof typeof componentMap) ?? "general"
+              ) as keyof typeof componentMap) ?? "general")
             : "404"
         ]
       ),
@@ -297,8 +297,8 @@ const Roadmap = () => {
             </h1>
 
             <p className="text-sm text-gray-500 dark:text-text-primary md:text-base">
-              Change your hashnode.dev blog URL to a custom domain of your
-              choice for free!
+              Change your flowlet.dev blog URL to a custom domain of your choice
+              for free!
             </p>
           </div>
         </div>

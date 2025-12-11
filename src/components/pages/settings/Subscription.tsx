@@ -29,7 +29,7 @@ const Subscription = () => {
         {session?.user.stripeSubscriptionStatus === "active" ? (
           <div className="py-4">
             <h1 className="mb-4 text-2xl font-semibold text-gray-700 dark:text-text-secondary">
-              You are already subscribed to Hashnode Pro
+              You are already subscribed to flowlet Pro
             </h1>
 
             <button className="btn-filled">Manage Plans</button>
@@ -42,7 +42,7 @@ const Subscription = () => {
                   <LogonoText className="h-6 w-6 stroke-gray-700 dark:stroke-text-secondary" />
                 </span>
                 <p className="flex items-center gap-2 text-xl font-bold text-black dark:text-white">
-                  Hashnode Clone
+                  flowlet Clone
                   <span className="rounded-md bg-blue-500 px-2 text-base font-semibold text-white">
                     PRO
                   </span>
@@ -66,7 +66,7 @@ const Subscription = () => {
               </button>
               <button
                 role="button"
-                aria-label="lean more on Hashnode pro"
+                aria-label="lean more on flowlet pro"
                 className="btn-outline w-fit text-sm text-white"
               >
                 Learn more

@@ -180,7 +180,7 @@ const SearchBody = React.forwardRef<
 
             <input
               type="text"
-              placeholder="Search Hashnode"
+              placeholder="Search flowlet"
               className="input-primary w-full"
               autoFocus
               onChange={(e) => {

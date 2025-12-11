@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { type FC } from "react";
 import { type UserSimple } from "~/types";
-import { HashnodeSocials } from "~/utils/constants";
+import { flowletSocials } from "~/utils/constants";
 
 interface Props {
   user: UserSimple | null;
@@ -75,7 +75,7 @@ const ArticleHamburgerMenu: FC<Props> = ({ user, menu, setMenu }) => {
               </h1>
 
               <ul className="mb-4 flex flex-wrap gap-2 border-b border-border-light px-4 pb-4 dark:border-primary-light">
-                {HashnodeSocials.map((item, index) => (
+                {flowletSocials.map((item, index) => (
                   <li key={index}>
                     <a
                       target="_blank"

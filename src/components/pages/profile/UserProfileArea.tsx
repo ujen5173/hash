@@ -83,7 +83,7 @@ const UserProfileArea: FC<{
                 </h3>
                 {userDetails?.stripeSubscriptionStatus === "active" && (
                   <Tooltip
-                    label="Hashnode Clone Pro User"
+                    label="flowlet Clone Pro User"
                     position="bottom"
                     style={{
                       fontSize: "0.8rem",

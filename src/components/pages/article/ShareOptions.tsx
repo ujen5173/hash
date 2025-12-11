@@ -32,7 +32,7 @@ const ShareOptions = React.forwardRef<
       ),
       action: () => {
         window.open(
-          `https://twitter.com/intent/tweet?url=${window.location.href}&text=${acticleDetails.title}&via=${acticleDetails.by} on @HashnodeClone`,
+          `https://twitter.com/intent/tweet?url=${window.location.href}&text=${acticleDetails.title}&via=${acticleDetails.by} on @flowletClone`,
           "_blank",
         );
         setShareOpen(false);
@@ -58,7 +58,7 @@ const ShareOptions = React.forwardRef<
       ),
       action: () => {
         window.open(
-          `https://www.linkedin.com/shareArticle?mini=true&url=${window.location.href}&title=${acticleDetails.title}&source=Hashnode-clone`,
+          `https://www.linkedin.com/shareArticle?mini=true&url=${window.location.href}&title=${acticleDetails.title}&source=flowlet-clone`,
           "_blank",
         );
         setShareOpen(false);

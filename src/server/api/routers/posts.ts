@@ -213,8 +213,10 @@ export type ArticleForEdit = {
 };
 
 // here `Omit` is used to remove the `subtitle` property from `Article` type and add `commonUsers` property
-export interface ArticleCard
-  extends Omit<Article, "subtitle" | "comments" | "likes" | "content"> {
+export interface ArticleCard extends Omit<
+  Article,
+  "subtitle" | "comments" | "likes" | "content"
+> {
   subContent: string | null;
   // commonUsers: {
   //   id: string;
@@ -228,8 +230,7 @@ export type ArticleCardRemoveCommonUserWithoutLikes = Omit<
   "commonUsers"
 >;
 
-export interface ArticleCardWithComments
-  extends ArticleCardRemoveCommonUserWithoutLikes {
+export interface ArticleCardWithComments extends ArticleCardRemoveCommonUserWithoutLikes {
   comments: {
     user: {
       id: string;
@@ -1354,7 +1355,7 @@ export const postsRouter = createTRPCRouter({
         ...newActivities,
         {
           id: uuid(),
-          title: "Joined Hashnode Clone",
+          title: "Joined flowlet Clone",
           slug: "",
           createdAt: user?.createdAt,
           activity_type: "JOINED",

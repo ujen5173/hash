@@ -74,7 +74,7 @@ export const handleRouter = createTRPCRouter({
         .insert(handles)
         .values({
           handle: input.handle.domain,
-          name: input.handle.name ?? "HASHNODE CLONE HANDLE",
+          name: input.handle.name ?? "flowlet CLONE HANDLE",
           userId: ctx.session.user.id,
         })
         .returning();

@@ -71,7 +71,7 @@ const UserSearchCard: FC<Props> = ({ user: searchedUser, setOpened }) => {
               </h3>
               {searchedUser.stripeSubscriptionStatus === "active" && (
                 <Tooltip
-                  label="Hashnode Clone Pro User"
+                  label="flowlet Clone Pro User"
                   position="bottom"
                   style={{
                     fontSize: "0.8rem",

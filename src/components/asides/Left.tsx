@@ -4,7 +4,7 @@ import Link from "next/link";
 import { type FC } from "react";
 import { FilterTimeOption } from "~/hooks/useFilter";
 import { api } from "~/utils/api";
-import { asideItems, HashnodeSocials } from "~/utils/constants";
+import { asideItems, flowletSocials } from "~/utils/constants";
 import { type TrendingTagsTypes } from "~/utils/context";
 import Divider from "../Divider";
 import TrendingTextLoading from "../loading/TrendingText";
@@ -38,7 +38,7 @@ const LeftAside = () => {
 
         <div className="p-4">
           <span className="text-sm text-gray-700 dark:text-text-primary">
-            @ {new Date().getFullYear()} Hashnode Clone
+            @ {new Date().getFullYear()} flowlet Clone
           </span>
         </div>
       </aside>
@@ -120,7 +120,7 @@ const TrendingComponent: FC<{
 const SocialHandles = () => {
   return (
     <ul className="flex flex-wrap gap-2 px-4 pb-4">
-      {HashnodeSocials.map((item, index) => (
+      {flowletSocials.map((item, index) => (
         <li key={index}>
           <a
             target="_blank"
@@ -133,7 +133,7 @@ const SocialHandles = () => {
                   ? "hover:bg-[#7289da]"
                   : item.name === "Github"
                     ? "github hover:bg-[#2c3646]"
-                    : item.name === "Hashnode"
+                    : item.name === "flowlet"
                       ? "hover:bg-secondary"
                       : ""
             }`}

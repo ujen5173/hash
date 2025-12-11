@@ -16,7 +16,7 @@ const MetaTags: React.FC<Props> = ({
   image,
 }) => {
   const formattedTitle = useMemo(() => {
-    const defaultTitle = `Hashnode Clone`;
+    const defaultTitle = `flowlet Clone`;
 
     if (title) {
       return `${title} | ${defaultTitle}`;
@@ -26,7 +26,7 @@ const MetaTags: React.FC<Props> = ({
   }, [title]);
 
   const DEFAULT_DESCRIPTION =
-    "Hashnode Clone is a clone of free developer blogging platform that allows you to publish articles on your own domain and helps you stay connected with a global developer community.";
+    "flowlet Clone is a clone of free developer blogging platform that allows you to publish articles on your own domain and helps you stay connected with a global developer community.";
   const LOGO_PATH = `${baseUrl}/static/og_image.jpg`;
   const favicon = `${baseUrl}/static/favicon.ico`;
 
@@ -41,7 +41,7 @@ const MetaTags: React.FC<Props> = ({
 
       <meta
         name="keywords"
-        content="hashnode, hashnode-clone, hashnode-t3, hashnode-nextjs"
+        content="flowlet, flowlet-clone, flowlet-t3, flowlet-nextjs"
       />
       <meta
         name="googlebot"

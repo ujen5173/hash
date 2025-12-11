@@ -59,7 +59,7 @@ const ProfileDropdown = React.forwardRef<HTMLDivElement, Props>(
             <Link href={`/${user.user.id}/dashboard`}>
               <div className="px-4 py-2 hover:bg-gray-200 hover:dark:bg-border">
                 <h1 className="max-height-one text-sm text-gray-700 dark:text-text-secondary">
-                  {`${user.user.handle.handle}.hashnode-t3.dev`}
+                  {`${user.user.handle.handle}.flowlet-t3.dev`}
                 </h1>
               </div>
             </Link>
@@ -73,7 +73,7 @@ const ProfileDropdown = React.forwardRef<HTMLDivElement, Props>(
                   Start a personal blog
                 </h1>
                 <h1 className="text-xs font-medium text-gray-500 dark:text-text-secondary">
-                  Create a Hashnode blog for personal use. No collaborators.
+                  Create a flowlet blog for personal use. No collaborators.
                 </h1>
               </div>
             </div>

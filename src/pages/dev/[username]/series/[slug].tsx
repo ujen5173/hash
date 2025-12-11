@@ -36,7 +36,7 @@ const SeiesPage: NextPage<{
     <>
       <MetaTags
         title={`${user.name} (@${user.username}) | Series`}
-        description={`All series by ${user.name} (@${user.username}) on Hashnode`}
+        description={`All series by ${user.name} (@${user.username}) on flowlet`}
       />
 
       <AuthorBlogHeader user={user} />

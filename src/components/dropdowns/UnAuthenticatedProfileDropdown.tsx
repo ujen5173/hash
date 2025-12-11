@@ -19,7 +19,7 @@ const UnAuthenticatedProfileDropdown = React.forwardRef<HTMLDivElement>(
         />
 
         <h1 className="mb-2 text-left text-xl font-semibold text-gray-700 dark:text-text-secondary">
-          Sign up or log in to your Hashnode account.
+          Sign up or log in to your flowlet account.
         </h1>
 
         <p className="mb-2 text-sm text-gray-500 dark:text-text-primary">

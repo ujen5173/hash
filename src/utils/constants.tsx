@@ -139,16 +139,16 @@ export const others = [
     {
       id: uuid(),
       name: "Feature Requests",
-      link: "https://roadmap.hashnode.vercel.app/feature-requests",
+      link: "https://roadmap.flowlet.vercel.app/feature-requests",
     },
     {
       id: uuid(),
       name: "Changelog",
-      link: "https://roadmap.hashnode.vercel.app/changelog",
+      link: "https://roadmap.flowlet.vercel.app/changelog",
     },
     {
       id: uuid(),
-      name: "Hashnode APIs",
+      name: "flowlet APIs",
       link: "api.hahsnode.vercel.app",
     },
   ],
@@ -156,51 +156,51 @@ export const others = [
     {
       id: uuid(),
       name: "About",
-      link: "https://hashnode.vercel.app/about",
+      link: "https://flowlet.vercel.app/about",
     },
     {
       id: uuid(),
       name: "Service Status",
-      link: "https://hashnode.vercel.app/status",
+      link: "https://flowlet.vercel.app/status",
     },
     {
       id: uuid(),
       name: "Official Blog",
-      link: "https://hashnode.vercel.app/blog",
+      link: "https://flowlet.vercel.app/blog",
     },
     {
       id: uuid(),
       name: "Press Kit",
-      link: "https://hashnode.vercel.app/press",
+      link: "https://flowlet.vercel.app/press",
     },
     {
       id: uuid(),
       name: "Support",
 
-      link: "https://hashnode.vercel.app/support",
+      link: "https://flowlet.vercel.app/support",
     },
     {
       id: uuid(),
       name: "Careers",
 
-      link: "https://hashnode.vercel.app/careers",
+      link: "https://flowlet.vercel.app/careers",
     },
     {
       id: uuid(),
       name: "OSS ACK",
-      link: "https://hashnode.vercel.app/oss-ack",
+      link: "https://flowlet.vercel.app/oss-ack",
     },
   ],
   [
     {
       id: uuid(),
       name: "Privacy Policy",
-      link: "https://hashnode.vercel.app/privacy",
+      link: "https://flowlet.vercel.app/privacy",
     },
     {
       id: uuid(),
       name: "Terms of Service",
-      link: "https://hashnode.vercel.app/terms",
+      link: "https://flowlet.vercel.app/terms",
     },
   ],
 ];
@@ -341,7 +341,7 @@ export const generalSettingsSocials = [
   },
 ];
 
-export const HashnodeSocials = [
+export const flowletSocials = [
   {
     name: "Twitter",
     icon: (
@@ -362,11 +362,11 @@ export const HashnodeSocials = [
     link: "https://discord.com/ujen5173/",
   },
   {
-    name: "Hashnode",
+    name: "flowlet",
     icon: (
       <LogonoText className="h-5 w-5 fill-slate-500 dark:fill-text-primary" />
     ),
-    link: "https://hashnode.com/@ujenbasi575",
+    link: "https://flowlet.com/@ujenbasi575",
   },
 ];
 
@@ -554,7 +554,7 @@ export const articleProfileDropdownList = [
     type: "divider",
   },
   {
-    name: "Back to Hashnode",
+    name: "Back to flowlet",
     icon: <LogonoText className="h-4 w-4 fill-secondary" />,
     link: () => "/",
     hiddenItem: false,

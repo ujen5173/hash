@@ -15,17 +15,17 @@ const feedbackRouter = createTRPCRouter({
     )
     .mutation(async ({ input }) => {
       await transporter.sendMail({
-        from: "Hashnode Clone Team",
+        from: "flowlet Clone Team",
         to: env.TO,
-        subject: "Hashnode Clone Feedback",
+        subject: "flowlet Clone Feedback",
         html: `
         <div class="feedback-container-style">
           <div class="feedback-container-body">
             <div class="feedback-image-style">
-              <img src={"~/public/hashnode-logo-full.png"} alt="Hashnode Clone Logo" />
+              <img src={"~/public/flowlet-logo-full.png"} alt="flowlet Clone Logo" />
             </div>
 
-            <h1 class="feedback-title">Hashnode Clone Feedback</h1>
+            <h1 class="feedback-title">flowlet Clone Feedback</h1>
 
             <div class="feedback-content">
               <div class="feedback-card">Name / Email Address: ${input.name ?? "NaN"}</div>

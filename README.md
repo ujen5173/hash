@@ -1,9 +1,9 @@
 > [!NOTE]
-> This project is no longer maintained. For the meanwhile check out my other projects while i build new version of Hashnode clone (flowlet) with the modern techstack and more efficient and structured codebase.
+> This project is no longer maintained. For the meanwhile check out my other projects while i build new version of flowlet clone (flowlet) with the modern techstack and more efficient and structured codebase.
 
-# Hashnode Clone
+# flowlet Clone
 
-This is a **full-stack application** that serves as a clone of the popular blogging website, _Hashnode_. The purpose of this project is to showcase my skills in web development and serve as a learning experience. I have utilized Next.js, Nextjs, Tailwind CSS, and the T3 stack with PostgreSQL as the technology stack for this project. With a plethora of exciting features, this intermediate-level project replicates most of the functionalities found on the original Hashnode website. I hope you enjoy this project as much as I enjoyed building it. Cheers 🍻. Contributions are welcome!
+This is a **full-stack application** that serves as a clone of the popular blogging website, _flowlet_. The purpose of this project is to showcase my skills in web development and serve as a learning experience. I have utilized Next.js, Nextjs, Tailwind CSS, and the T3 stack with PostgreSQL as the technology stack for this project. With a plethora of exciting features, this intermediate-level project replicates most of the functionalities found on the original flowlet website. I hope you enjoy this project as much as I enjoyed building it. Cheers 🍻. Contributions are welcome!
 
 ## Table of Contents
 
@@ -27,13 +27,13 @@ This is a **full-stack application** that serves as a clone of the popular blogg
 Clone the repository
 
 ```
- git clone https://github.com/ujen5173/hashnode.git
+ git clone https://github.com/ujen5173/flowlet.git
 ```
 
 Navigate to the project directory:
 
 ```
-  cd hashnode
+  cd flowlet
 ```
 
 Install the dependencies:
@@ -51,12 +51,13 @@ Install the dependencies:
 - [Google AI for text completion](https://ai.google.dev/)
 
 ### Setting up the datase
+
 - Create an account on [Railway](https://railway.app) to setup cloud postgresql database.
 - Navigate to the [railway new app](https://railway.app/new) and choose Provision PostgreSQL.
 - Access the Variables section within the newly created database.
 - Retrieve the DATABASE_URL and transfer it to the .env file under the same name.
 - Execute yarn db:dev to upload the schema to the Railway database.
- 
+
 ### Setting up the development environment
 
 - Set up the required environment variables. Refer to the `.env.example` file for the necessary variables.

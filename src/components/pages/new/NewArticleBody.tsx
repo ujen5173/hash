@@ -10,7 +10,6 @@ import Editor from "~/components/editor";
 import Input from "~/components/inputs/Input";
 import NewArticleModal from "~/components/models/NewArticle";
 import { LoadingSpinner } from "~/svgs";
-import HashnodePlus from "~/svgs/HashnodePlus";
 import { type ArticleForEdit, type DefaultEditorContent } from "~/types";
 import { api } from "~/utils/api";
 import { slugSetting } from "~/utils/constants";
@@ -287,7 +286,7 @@ const NewArticleBody: FC<{
                 {generatingContent.title ? (
                   <LoadingSpinner className="h-5 w-5 fill-none stroke-slate-800" />
                 ) : (
-                  <HashnodePlus className="h-5 w-5 stroke-slate-600 dark:stroke-slate-300" />
+                  <flowletPlus className="h-5 w-5 stroke-slate-600 dark:stroke-slate-300" />
                 )}
               </button>
             </div>
@@ -323,7 +322,7 @@ const NewArticleBody: FC<{
                 {generatingContent.subtitle ? (
                   <LoadingSpinner className="h-5 w-5 fill-none stroke-slate-800" />
                 ) : (
-                  <HashnodePlus className="h-5 w-5 stroke-slate-600 dark:stroke-slate-300" />
+                  <flowletPlus className="h-5 w-5 stroke-slate-600 dark:stroke-slate-300" />
                 )}
               </button>
             </div>
@@ -353,7 +352,7 @@ const NewArticleBody: FC<{
                 {generatingContent.title ? (
                   <LoadingSpinner className="h-5 w-5 fill-none stroke-slate-800" />
                 ) : (
-                  <HashnodePlus className="h-5 w-5 stroke-slate-600 dark:stroke-slate-300" />
+                  <flowletPlus className="h-5 w-5 stroke-slate-600 dark:stroke-slate-300" />
                 )}
               </button>
             </div>

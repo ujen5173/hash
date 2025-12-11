@@ -11,7 +11,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { useContext, type FC } from "react";
 import removeMd from "remove-markdown";
-import { ArticleCard } from "~/types";
+import { type ArticleCard } from "~/types";
 import { C } from "~/utils/context";
 import { formatDate, limitTags, limitText } from "~/utils/miniFunctions";
 
@@ -43,7 +43,7 @@ const ArticleCard: FC<{ card: ArticleCard }> = ({ card }) => {
 
             {card.user?.stripeSubscriptionStatus === "active" && (
               <Tooltip
-                label="Hashnode Clone Pro User"
+                label="flowlet Clone Pro User"
                 position="bottom"
                 style={{
                   fontSize: "0.8rem",

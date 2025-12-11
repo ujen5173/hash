@@ -1,7 +1,7 @@
 const EmailNotification = () => {
   const EMAIL_NOTIFICATIONS = [
     {
-      title: "Hashnode weekly",
+      title: "flowlet weekly",
       description:
         "Curated weekly newsletter with best stories and discussions",
     },
@@ -24,7 +24,7 @@ const EmailNotification = () => {
     {
       title: "Referral Notifications",
       description:
-        "Get notified on Successful Referrals, Hashnode Ambassador Eligibility, Swag Kit Eligibility, etc...",
+        "Get notified on Successful Referrals, flowlet Ambassador Eligibility, Swag Kit Eligibility, etc...",
     },
   ];
 

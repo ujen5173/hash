@@ -13,7 +13,7 @@ const config = {
   },
   images: {
     remotePatterns: [
-      { protocol: "https", hostname: "cdn.hashnode.com", port: "" },
+      { protocol: "https", hostname: "cdn.flowlet.com", port: "" },
       {
         protocol: "https",
         hostname: "i.ytimg.com",

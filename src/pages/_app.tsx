@@ -97,7 +97,7 @@ const MyApp: AppType<{ session: Session | null }> = ({
       <SpeedInsights />
       <Loglib
         config={{
-          id: "hashnode-t3",
+          id: "flowlet-t3",
         }}
       />
 

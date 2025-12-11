@@ -30,7 +30,7 @@ const ActivityCard: FC<Props> = ({ index, item, activityLength }) => {
         )}
         <span className="text-gray-700 dark:text-text-secondary">
           {item.activity_type === "JOINED"
-            ? "Joined Hashnode"
+            ? "Joined flowlet"
             : "Wrote an article"}
         </span>
       </div>
