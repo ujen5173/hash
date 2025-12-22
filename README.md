@@ -1,9 +1,9 @@
 > [!NOTE]
-> This project is no longer maintained. For the meanwhile check out my other projects while i build new version of flowlet clone (flowlet) with the modern techstack and more efficient and structured codebase.
+> This project is no longer maintained. For the meanwhile check out my other projects while i build new version of Codexa clone (Codexa) with the modern techstack and more efficient and structured codebase.
 
-# flowlet Clone
+# Hashnode Clone
 
-This is a **full-stack application** that serves as a clone of the popular blogging website, _flowlet_. The purpose of this project is to showcase my skills in web development and serve as a learning experience. I have utilized Next.js, Nextjs, Tailwind CSS, and the T3 stack with PostgreSQL as the technology stack for this project. With a plethora of exciting features, this intermediate-level project replicates most of the functionalities found on the original flowlet website. I hope you enjoy this project as much as I enjoyed building it. Cheers 🍻. Contributions are welcome!
+This is a **full-stack application** that serves as a clone of the popular blogging website, _Codexa_. The purpose of this project is to showcase my skills in web development and serve as a learning experience. I have utilized Next.js, Nextjs, Tailwind CSS, and the T3 stack with PostgreSQL as the technology stack for this project. With a plethora of exciting features, this intermediate-level project replicates most of the functionalities found on the original Codexa website. I hope you enjoy this project as much as I enjoyed building it. Cheers 🍻. Contributions are welcome!
 
 ## Table of Contents
 
@@ -27,13 +27,13 @@ This is a **full-stack application** that serves as a clone of the popular blogg
 Clone the repository
 
 ```
- git clone https://github.com/ujen5173/flowlet.git
+ git clone https://github.com/ujen5173/Codexa.git
 ```
 
 Navigate to the project directory:
 
 ```
-  cd flowlet
+  cd Codexa
 ```
 
 Install the dependencies:
